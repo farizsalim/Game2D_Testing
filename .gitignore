@@ -1,0 +1,61 @@
+# Unity .gitignore
+
+# UNITY GENERATED FOLDERS
+[Ll]ibrary/
+[Tt]emp/
+[Oo]bj/
+[Bb]uild/
+[Bb]uilds/
+[Ll]ogs/
+[Uu]ser[Ss]ettings/
+
+# MEMORY CAPTURE
+MemoryCaptures/
+
+# ASSET META DATA (IMPORTANT)
+!/[Aa]ssets/**/*.meta
+
+# UNITY CACHE SERVER
+/[Aa]ssets/AssetStoreTools*
+
+# VISUAL STUDIO / VS CODE
+*.csproj
+*.unityproj
+*.sln
+*.suo
+*.tmp
+*.user
+*.userprefs
+*.pidb
+*.booproj
+*.svd
+
+.vscode/
+.idea/
+
+# OS FILES
+.DS_Store
+Thumbs.db
+
+# BUILD FILES
+*.apk
+*.aab
+*.unitypackage
+*.app
+*.exe
+
+# CRASH REPORTS
+sysinfo.txt
+
+# UNITY ADDRESSABLES
+/[Aa]ssets/AddressableAssetsData/*/*.bin*
+
+# IL2CPP BUILD
+il2cpp_cache/
+
+# DOTS / ECS
+.DOTS/
+
+# GENERATED FILES
+*.log
+*.stacktrace
